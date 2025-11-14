@@ -1,0 +1,45 @@
+{
+	"name": "DS_SQL_BLOB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_BLOB",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"ds_schemaname": {
+				"type": "string"
+			},
+			"ds_tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "CustomerID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "FirstName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().ds_schemaname",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().ds_tablename",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

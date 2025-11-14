@@ -1,0 +1,9 @@
+{
+	"name": "adf-dev-csv-parquet",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bb20b5d5-eaad-4f53-80a3-c925eb68d0c7",
+		"tenantId": "cd7cce55-d992-4b63-980d-50e4d796f01c"
+	}
+}
