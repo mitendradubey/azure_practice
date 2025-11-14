@@ -1,0 +1,219 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-dev-csv-parquet"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage10_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage11_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage9_accountKey": {
+			"value": ""
+		},
+		"LS_AVRO_accountKey": {
+			"value": ""
+		},
+		"LS_Delete_src_accountKey": {
+			"value": ""
+		},
+		"LS_EMPTYCHECK_accountKey": {
+			"value": ""
+		},
+		"LS_GetColumnCount_accountKey": {
+			"value": ""
+		},
+		"LS_MULTIPLE_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_PARAM_accountKey": {
+			"value": ""
+		},
+		"LS_PARAM1_accountKey": {
+			"value": ""
+		},
+		"LS_PARAM_SRC_NEW_accountKey": {
+			"value": ""
+		},
+		"LS_PQT_accountKey": {
+			"value": ""
+		},
+		"LS_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_BLOB_password": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_SRC_PARAM_accountKey": {
+			"value": ""
+		},
+		"LS_SRC_PARAM1_accountKey": {
+			"value": ""
+		},
+		"LS_TGT_PARAM_accountKey": {
+			"value": ""
+		},
+		"LS_TGT_PARAM_NEW_accountKey": {
+			"value": ""
+		},
+		"LS_TGT_REST_CSV_accountKey": {
+			"value": ""
+		},
+		"LS_TGT_SQL_BLOB_connectionString": {
+			"value": ""
+		},
+		"ls_exl_src_accountKey": {
+			"value": ""
+		},
+		"ls_source_accountKey": {
+			"value": ""
+		},
+		"ls_tgt_accountKey": {
+			"value": ""
+		},
+		"ls_tgt_exl_pqt_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage10_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage11_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage9_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_AVRO_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"LS_Delete_src_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_EMPTYCHECK_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_GetColumnCount_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_MULTIPLE_CSV_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_PARAM_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_PARAM1_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_PARAM_SRC_NEW_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_PQT_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"LS_Parquet_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"LS_SQL_BLOB_properties_typeProperties_server": {
+			"value": "LAPTOP-LREJCR2M\\SQLEXPRESS"
+		},
+		"LS_SQL_BLOB_properties_typeProperties_database": {
+			"value": "TestDB"
+		},
+		"LS_SQL_BLOB_properties_typeProperties_userName": {
+			"value": "test_user"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-LREJCR2M\\SQLEXPRESS"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "TestDB"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "test_user"
+		},
+		"LS_SRC_PARAM_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_SRC_PARAM1_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"LS_TGT_PARAM_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"LS_TGT_PARAM_NEW_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"LS_TGT_REST_CSV_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net/"
+		},
+		"ls_exl_src_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net/"
+		},
+		"ls_source_properties_typeProperties_url": {
+			"value": "https://storageadfsource.dfs.core.windows.net"
+		},
+		"ls_tgt_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net"
+		},
+		"ls_tgt_exl_pqt_properties_typeProperties_url": {
+			"value": "https://storageadfparquet.dfs.core.windows.net"
+		},
+		"EVENT_TR_properties_typeProperties_scope": {
+			"value": "/subscriptions/394f9a88-2110-4410-afa6-bb5acc01c774/resourceGroups/rg_adf_dev_practice/providers/Microsoft.Storage/storageAccounts/storageadfsource"
+		}
+	}
+}
